@@ -5,15 +5,26 @@ import com.sdd.service.IUserService;
 public class UserServiceImpl implements IUserService {
 
 	@Override
-	public void login() {
-		// TODO Auto-generated method stub
-		System.out.println("login方法被触发");
+	public void save() {
+		System.out.println("保存用户");
 	}
 
 	@Override
-	public void loginOut() {
-		// TODO Auto-generated method stub
-		System.out.println("loginOut方法被触发");
+	public void delete() {
+		System.out.println("删除用户");
+		
 	}
+
+	@Override
+	public void updata() {
+		System.out.println("修改用户");
+		
+	}
+
+	@Override
+	public void select() {
+		System.out.println("查找用户");		
+	}
+
 	
 }

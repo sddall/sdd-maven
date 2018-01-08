@@ -1,6 +1,8 @@
 package com.sdd.service;
 
 public interface IUserService {
-	void login();
-	void loginOut();
+	void save();
+	void delete();
+	void updata();
+	void select();
 }
